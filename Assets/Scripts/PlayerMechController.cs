@@ -108,7 +108,7 @@ public class PlayerMechController : MonoBehaviour
 
     private void CameraControl()
     {
-        if (Input.GetKeyUp(KeyCode.F1)) {
+        if (Input.GetKeyUp(KeyCode.Space)) {
             if (FirstViewCam.gameObject.activeInHierarchy && !ThirdViewCam.gameObject.activeInHierarchy)
             {
                 FirstViewCam.gameObject.SetActive(false);
